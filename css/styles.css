@@ -232,7 +232,7 @@ address{
     list-style: none;
     border: 1px solid #E7E9FC;
 }
-.projects-list h3 {
+.projects-list h2 {
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
