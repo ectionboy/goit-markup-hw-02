@@ -21,11 +21,16 @@ body {
 .link{
   text-decoration: none;
 }
+.list{
+  list-style: none;
+}
 /* ========header========= */
 .navigation-item {
   color: var(--color-title);
 }
-.navigation-item:hover,
+.navigation-item:hover{
+  color: #404bbf;
+}
 .navigation-item:active {
   color: #404bbf;
 }
@@ -54,6 +59,9 @@ body {
   text-decoration: none;
 }
 /* contacts */
+address{
+  font-style: normal;
+}
 .contacts {
   font-family: "Roboto";
   font-style: normal;
