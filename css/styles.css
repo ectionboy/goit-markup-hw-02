@@ -255,7 +255,10 @@ footer {
   background-color: var(--color-footer-bg);
 }
 .footer-logo {
-  color: var(--color-footer-description);
+  color: #4d5ae5;
+}
+.logo-selected-footer{
+  color: #f4f4fd;
 }
 .description {
   width: 264px;
