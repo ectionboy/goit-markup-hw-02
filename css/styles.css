@@ -28,9 +28,8 @@ body {
 .navigation-item {
   color: var(--color-title);
 }
-.navigation-item:hover{
-  color: #404bbf;
-}
+.navigation-item:hover,
+.navigation-item:focus,
 .navigation-item:active {
   color: #404bbf;
 }
@@ -76,19 +75,24 @@ address{
   color: inherit;
 }
 .contacts-item:hover,
-.contacts-item:active {
+.contacts-item:active,
+.contacts-item:focus {
   color: #404bbf;
 }
 /* -----header-end----- */
 
 /* ========main-content======== */
 /* title+button */
+.title-section{
+  background-color: #2e2f42;
+}
 .main-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   width: 30%;
+  color: #ffffff;
 }
 .btn-ord-serv {
   width: 169px;
@@ -107,8 +111,10 @@ address{
   cursor: pointer;
 }
 .btn-ord-serv:hover,
+.btn-ord-serv:focus,
 .btn-ord-serv:active {
   box-shadow: none;
+  background-color: #404BBF;
 }
 
 /* advantages */
@@ -146,12 +152,18 @@ address{
   list-style: none;
 }
 /* Our Team */
+.team{
+  background-color: #F4F4FD
+}
 .team > h2 {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-title);
+}
+.team-title{
+  text-align: center;
 }
 .team-list {
   list-style: none;
@@ -172,6 +184,9 @@ address{
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-title);
+}
+.team-list-item-p{
+  font-size: 16px;
 }
 .team-list p {
   font-style: normal;
@@ -240,13 +255,13 @@ footer {
   background-color: var(--color-footer-bg);
 }
 .footer-logo {
-  color: var(--color-footer-logo);
+  color: var(--color-footer-description);
 }
 .description {
   width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-footer-description);
+  color: var(--color-footer-logo);
 }
 /* -----footer----- */
