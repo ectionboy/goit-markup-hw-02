@@ -147,6 +147,7 @@ address{
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-title);
+  text-align: center;
 }
 .products > ul {
   list-style: none;
